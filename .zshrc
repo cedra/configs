@@ -17,9 +17,9 @@ setopt share_history
 cat ~/.cache/wal/sequences
 source ~/.cache/wal/colors-tty.sh
 
-alias pass="mpw -u Warls\ Comodori -t x -R 1 "
+alias pass="mpw -u [redacted] -t x -R 1 "
 alias theme="python ~/i3wm-themer/src/i3wm-themer.py --config ~/i3wm-themer/src/config.yaml --load "
-alias irc="ssh -p 10400 honeycomb@clustered.space -t tmux a"
+alias irc="ssh [server] -t tmux a"
 
 EDITOR=/usr/bin/vim
 export TERM='rxvt-unicode-256color'
